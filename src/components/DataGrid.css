@@ -1,0 +1,75 @@
+/* DataGrid.css */
+
+
+  
+  input[type="text"] {
+    width: 200px;
+    padding: 5px;
+  }
+  .search{
+   margin: 10px;  
+  }
+  
+  select {
+    padding: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  th:hover {
+    background-color: #e6e6e6;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+  }
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; 
+    
+  }
+  
+  .buttons-container button {
+    margin: 0 5px; 
+  }
+  
+  .black-background {
+    background-color: black;
+    color: white;
+  }
+  
+  .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  /* DataGrid.css */
+
+
+
+
+
+  
